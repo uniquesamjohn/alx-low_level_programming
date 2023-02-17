@@ -4,7 +4,7 @@
  * Return: ALways 0 (Success)
  * */
 
-init main(void)
+int main(void)
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
 	printf("size of an int: %zu byte(s)\n", sizeof(int));
